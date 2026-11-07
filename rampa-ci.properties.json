@@ -1,0 +1,6 @@
+{
+  "name": "Rampa CI",
+  "description": "Instala, revisa, prueba y compila proyectos de Node.js de Rampa.",
+  "iconName": "octicon check-circle",
+  "categories": ["JavaScript", "TypeScript"]
+}

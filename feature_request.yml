@@ -1,0 +1,42 @@
+name: Proponer una función
+description: Una idea para mejorar Rampa.
+title: "[Idea] "
+labels: ["idea", "por revisar"]
+body:
+  - type: dropdown
+    id: lado
+    attributes:
+      label: ¿Para quién es?
+      options:
+        - Estudiante
+        - Universidad
+        - Empresa
+        - Interno
+    validations:
+      required: true
+  - type: textarea
+    id: problema
+    attributes:
+      label: Qué problema resuelve
+      description: Describe el problema antes que la solución.
+    validations:
+      required: true
+  - type: textarea
+    id: propuesta
+    attributes:
+      label: Tu propuesta
+    validations:
+      required: true
+  - type: textarea
+    id: alternativas
+    attributes:
+      label: Alternativas que consideraste
+  - type: checkboxes
+    id: principios
+    attributes:
+      label: Principios de Rampa
+      description: Las funciones nuevas deben respetar estos principios.
+      options:
+        - label: No convierte a Rampa en una red social (sin feed, likes ni seguidores).
+        - label: Sirve a todas las universidades, no a una sola.
+        - label: No usa foto, edad ni datos sensibles para ordenar candidatos.
